@@ -1,6 +1,6 @@
 {
   "name": "@timheckel/parallel-dots",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Wrapper for the Parallel Dots API",
   "main": "index.js",
   "scripts": {
