@@ -19,16 +19,16 @@ Your usage is also available via:
 
 Calling the API:
 
-    const parallelDots = require("paralleldots");
+    const parallelDots = require("@timheckel/parallel-dots");
 
     const pd = new parallelDots({ 
-      key: "YOUR_API_KEY"
+      key: YOUR_PARALLEL_DOTS_API_KEY 
     });
 
     pd.call({
-        path: "sentiment" //what action do you want to take?
-      , text: "Some simple sentence to parse." //these params vary by
-      , cb: (err, res) => {
-        console.log("results are ", res); //results are: res.statusCode, res.body
+      path: "sentiment"
+      , text: "Some text to analyze"
+      }, (err, res) => {
+        console.log("Res ", err, res);
       }
-    })
+    )
