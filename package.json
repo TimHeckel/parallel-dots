@@ -1,13 +1,16 @@
 {
   "name": "@timheckel/parallel-dots",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Wrapper for the Parallel Dots API",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
   },
   "author": "Tim Heckel",
-  "url": "https://github.com/TimHeckel/parallel-dots",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TimHeckel/parallel-dots"
+  },
   "license": "MIT",
   "dependencies": {
     "lodash": "^4.17.4",
