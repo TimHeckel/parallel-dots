@@ -26,9 +26,9 @@ Calling the API:
     });
 
     pd.call({
-      path: "sentiment"
+      path: "sentiment" //or "similarity", "ner", "keywords", etc
       , text: "Some text to analyze"
       }, (err, res) => {
         console.log("Res ", err, res);
       }
-    )
+    })
